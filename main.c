@@ -12,7 +12,7 @@ int main(void) {
 char *temp_str = readline("Enter temperature in celsius: ");
 double celsius = atof(temp_str);
 double fahrenheit = (celsius * 9/5) + 32;
-printf("%.6f° in Celsius is equivalent to %.6f° Fahrenheit", celsius, fahrenheit);
+printf("%.6f° in Celsius is equivalent to %.6f° Fahrenheit.", celsius, fahrenheit);
 
 
   
